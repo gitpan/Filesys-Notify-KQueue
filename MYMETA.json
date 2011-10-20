@@ -4,7 +4,7 @@
       "Kenta Sato <karupa@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.01, CPAN::Meta::Converter version 2.112600",
+   "generated_by" : "ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "perl_5"
    ],
@@ -15,9 +15,8 @@
    "name" : "Filesys-Notify-KQueue",
    "no_index" : {
       "directory" : [
-         "inc",
          "t",
-         "xt"
+         "inc"
       ]
    },
    "prereqs" : {
@@ -28,7 +27,7 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.42"
+            "ExtUtils::MakeMaker" : 0
          }
       },
       "runtime" : {
@@ -39,14 +38,5 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "homepage" : "https://github.com/karupanerura/p5-Filesys-Notify-KQueue/tree",
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
-      "repository" : {
-         "url" : "git://github.com/karupanerura/p5-Filesys-Notify-KQueue.git"
-      }
-   },
-   "version" : "0.03"
+   "version" : "0.04"
 }

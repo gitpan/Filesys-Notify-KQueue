@@ -23,8 +23,15 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Carp" : 0,
+            "Exporter" : 0,
             "ExtUtils::MakeMaker" : "6.36",
-            "Test::SharedFork" : 0
+            "File::Path" : 0,
+            "FindBin" : 0,
+            "IO::Handle" : 0,
+            "Test::More" : 0,
+            "Test::SharedFork" : 0,
+            "parent" : 0
          }
       },
       "configure" : {

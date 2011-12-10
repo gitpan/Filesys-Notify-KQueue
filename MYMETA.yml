@@ -3,8 +3,15 @@ abstract: 'Wrap IO::KQueue for watching file system.'
 author:
   - 'Kenta Sato <karupa@cpan.org>'
 build_requires:
+  Carp: 0
+  Exporter: 0
   ExtUtils::MakeMaker: 6.36
+  File::Path: 0
+  FindBin: 0
+  IO::Handle: 0
+  Test::More: 0
   Test::SharedFork: 0
+  parent: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 dynamic_config: 0

@@ -25,6 +25,7 @@ README
 README.pod
 t/00_compile.t
 t/01_basic.t
+t/02_nest.t
 t/x/.placeholder
 xt/01_podspell.t
 xt/02_perlcritic.t

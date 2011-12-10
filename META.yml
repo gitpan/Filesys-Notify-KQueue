@@ -3,8 +3,15 @@ abstract: 'Wrap IO::KQueue for watching file system.'
 author:
   - 'Kenta Sato <karupa@cpan.org>'
 build_requires:
+  Carp: 0
+  Exporter: 0
   ExtUtils::MakeMaker: 6.36
+  File::Path: 0
+  FindBin: 0
+  IO::Handle: 0
+  Test::More: 0
   Test::SharedFork: 0
+  parent: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -27,4 +34,4 @@ resources:
   homepage: https://github.com/karupanerura/p5-Filesys-Notify-KQueue/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/karupanerura/p5-Filesys-Notify-KQueue.git
-version: 0.05
+version: 0.06

@@ -33,4 +33,4 @@ resources:
   homepage: https://github.com/karupanerura/p5-Filesys-Notify-KQueue/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/karupanerura/p5-Filesys-Notify-KQueue.git
-version: 0.05
+version: 0.06

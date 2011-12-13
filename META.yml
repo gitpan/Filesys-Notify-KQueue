@@ -6,7 +6,7 @@ build_requires:
   Carp: 0
   Exporter: 0
   ExtUtils::MakeMaker: 6.36
-  File::Path: 0
+  File::Path: 2.06_05
   FindBin: 0
   IO::Handle: 0
   Test::More: 0
@@ -34,4 +34,4 @@ resources:
   homepage: https://github.com/karupanerura/p5-Filesys-Notify-KQueue/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/karupanerura/p5-Filesys-Notify-KQueue.git
-version: 0.07
+version: 0.08
